@@ -18,7 +18,12 @@ const Activity = (props) => {
         </p>
       </div>
       <div className="add-btn-container">
-        <button className="add-to-list-btn">Add To List</button>
+        <button
+          className="add-to-list-btn"
+          onClick={() => props.addToList(props.activity)}
+        >
+          Add To List
+        </button>
       </div>
     </div>
   );

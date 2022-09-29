@@ -4,3 +4,8 @@
   gap: 20px;
   margin: 20px;
 }
+
+.activities-container {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+}

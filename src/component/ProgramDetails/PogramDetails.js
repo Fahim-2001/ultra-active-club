@@ -1,6 +1,12 @@
 import React from "react";
 import "./ProgramDetails.css";
-const PogramDetails = () => {
+const PogramDetails = (props) => {
+  const { activitiesObject } = props;
+  let totalTime = 0;
+  for (const activity of activitiesObject) {
+    console.log(activity);
+    totalTime = totalTime + activity.time;
+  }
   return (
     <div>
       <h2>Add a break</h2>
@@ -15,7 +21,7 @@ const PogramDetails = () => {
         <h2>Exercise Details</h2>
         <div className="exercise-time">
           <p>Exercise Time </p>
-          <p className="time">00 hours</p>
+          <p className="time">{totalTime} hours</p>
         </div>
         <div className="break-duration">
           <p>Break Time </p>
