@@ -17,16 +17,16 @@ const PogramDetails = (props) => {
   ];
   const [times, setTimes] = useState([]);
 
-  // let newBreakTime;
   const addBreakTime = (breaktime) => {
-    // console.log(breaktime);
     const newBreakTime = [times, breaktime];
-
-    // console.log(newBreakTime);
     setTimes(newBreakTime);
   };
-  console.log(times.breakTime);
-  // const setBreakTime = newBreakTime;
+  let newTime = 0;
+  for (const time of times) {
+    newTime = time.breakTime;
+    console.log(newTime);
+  }
+
   return (
     <div>
       <h2>Add a break</h2>
@@ -45,7 +45,7 @@ const PogramDetails = (props) => {
         </div>
         <div className="break-duration">
           <p>Break Time </p>
-          <p className="time">{}min</p>
+          <p className="time">{newTime}min</p>
         </div>
       </div>
       <div>

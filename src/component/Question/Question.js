@@ -2,7 +2,7 @@ import React from "react";
 import "./Question.css";
 const Question = () => {
   return (
-    <div>
+    <div className="questions">
       <div>
         <h2>How Does React Works?</h2>
         <p>

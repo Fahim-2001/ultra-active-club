@@ -1,6 +1,7 @@
 import "./App.css";
 import Activities from "./component/Activities/Activities";
 import Header from "./component/Header/Header";
+import Question from "./component/Question/Question";
 import SelfInfo from "./component/SelfInfo/SelfInfo";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <div>
         <Activities></Activities>
       </div>
+      <Question></Question>
     </div>
   );
 }
