@@ -27,7 +27,19 @@
 }
 
 .activity-btn {
-  background-color: rgb(84, 195, 239);
+  background-color: rgb(39, 192, 252);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 90%;
+  padding: 15px;
+  font-size: 19px;
+  margin-left: 5%;
+}
+
+.activity-btn:hover {
+  background-color: rgb(0, 181, 252);
+  color: white;
   border: none;
   border-radius: 5px;
   width: 90%;

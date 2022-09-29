@@ -6,7 +6,7 @@ const Activity = (props) => {
   return (
     <div className="activity">
       <img src={img} alt="" />
-      <div>
+      <div className="activity-body">
         <h3>{name}</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
