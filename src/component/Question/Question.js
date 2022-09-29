@@ -12,6 +12,14 @@ const Question = () => {
           changes in the browser DOM.
         </p>
       </div>
+      <div>
+        <h2>What is the difference between props and state?</h2>
+        <p>
+          Ans : Props - Data passed one to another component. It cannot be
+          modified. Props are read only State - Data pass within the component
+          only. It can be modified. State is both read and write.
+        </p>
+      </div>
     </div>
   );
 };
