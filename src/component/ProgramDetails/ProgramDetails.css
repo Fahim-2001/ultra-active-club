@@ -4,12 +4,14 @@
   justify-content: space-around;
   border-radius: 10px;
 }
-.break-time p {
+.break-time button {
+  border: none;
+  background-color: rgba(188, 187, 187, 0.387);
   padding: 20px;
   border-radius: 50%;
 }
 
-.break-time p:hover {
+.break-time button:hover {
   background-color: rgb(84, 195, 239);
   padding: 20px;
   border-radius: 50%;

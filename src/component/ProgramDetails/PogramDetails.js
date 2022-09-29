@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./ProgramDetails.css";
 const PogramDetails = (props) => {
   const { activitiesObject } = props;
@@ -7,15 +7,35 @@ const PogramDetails = (props) => {
     console.log(activity);
     totalTime = totalTime + activity.time;
   }
+
+  const breakTime = [
+    { id: 1, breakTime: 10 },
+    { id: 2, breakTime: 15 },
+    { id: 3, breakTime: 30 },
+    { id: 4, breakTime: 45 },
+    { id: 5, breakTime: 60 },
+  ];
+  const [times, setTimes] = useState([]);
+
+  // let newBreakTime;
+  const addBreakTime = (breaktime) => {
+    // console.log(breaktime);
+    const newBreakTime = [times, breaktime];
+
+    // console.log(newBreakTime);
+    setTimes(newBreakTime);
+  };
+  console.log(times.breakTime);
+  // const setBreakTime = newBreakTime;
   return (
     <div>
       <h2>Add a break</h2>
       <div className="break-time">
-        <p>10min</p>
-        <p>15min</p>
-        <p>30min</p>
-        <p>45min</p>
-        <p>60min</p>
+        {breakTime.map((time) => (
+          <button key={time.id} onClick={() => addBreakTime(time)}>
+            {time.breakTime}min
+          </button>
+        ))}
       </div>
       <div>
         <h2>Exercise Details</h2>
@@ -25,7 +45,7 @@ const PogramDetails = (props) => {
         </div>
         <div className="break-duration">
           <p>Break Time </p>
-          <p className="time">00 min</p>
+          <p className="time">{}min</p>
         </div>
       </div>
       <div>
