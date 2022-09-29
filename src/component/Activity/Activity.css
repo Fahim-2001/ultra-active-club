@@ -1,0 +1,27 @@
+.activity {
+  position: relative;
+  border: none;
+  border-radius: 10px;
+}
+.activity h3 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.activity img {
+  width: 100%;
+  height: 153px;
+  border: none;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.add-to-list-btn {
+  background-color: rgb(84, 195, 239);
+  font-size: 17px;
+  font-weight: 400;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 0px 0px 5px 5px;
+  align-items: center;
+}

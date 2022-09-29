@@ -1,4 +1,9 @@
 .site-name {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: rgb(84, 195, 239);
+  margin: 20px;
+}
+.direction {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 20px;
 }
