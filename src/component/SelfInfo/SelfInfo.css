@@ -1,0 +1,29 @@
+.self-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.self-info img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+.profile-and-location {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.self-location {
+  margin-left: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.personal-info {
+  display: flex;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 23px;
+  font-weight: 600;
+}
+.personal-info p {
+  margin: 10px;
+}

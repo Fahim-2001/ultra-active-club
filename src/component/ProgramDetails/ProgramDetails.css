@@ -1,0 +1,37 @@
+.break-time {
+  background-color: rgba(188, 187, 187, 0.387);
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+.break-time p {
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.break-time p:hover {
+  background-color: rgb(84, 195, 239);
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.exercise-time,
+.break-duration {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.time {
+  color: grey;
+}
+
+.activity-btn {
+  background-color: rgb(84, 195, 239);
+  border: none;
+  border-radius: 5px;
+  width: 90%;
+  padding: 15px;
+  font-size: 19px;
+  margin-left: 5%;
+}

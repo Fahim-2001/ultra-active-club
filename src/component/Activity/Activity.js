@@ -14,7 +14,7 @@ const Activity = (props) => {
           minus quas
         </p>
         <p>
-          <b>Time Duration : {time}</b>
+          <b>Time Duration : {time} hour</b>
         </p>
       </div>
       <div className="add-btn-container">

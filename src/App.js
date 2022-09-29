@@ -1,6 +1,8 @@
 import "./App.css";
 import Activities from "./component/Activities/Activities";
 import Header from "./component/Header/Header";
+import PogramDetails from "./component/ProgramDetails/PogramDetails";
+import SelfInfo from "./component/SelfInfo/SelfInfo";
 
 function App() {
   return (
@@ -10,7 +12,8 @@ function App() {
         <Activities></Activities>
       </div>
       <div>
-        <h1>Hihsab nikash</h1>
+        <SelfInfo></SelfInfo>
+        <PogramDetails></PogramDetails>
       </div>
     </div>
   );
