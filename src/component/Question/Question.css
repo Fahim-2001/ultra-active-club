@@ -2,5 +2,6 @@
   background-color: rgb(84, 195, 239);
   margin: 15px;
   padding: 10px;
+  border: 1px solid black;
   border-radius: 10px;
 }
